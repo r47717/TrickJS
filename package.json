@@ -1,0 +1,13 @@
+{
+  "name": "pm-react",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "r47717",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^12.0.0"
+  },
+  "scripts": {
+    "serve": "serve index.html"
+  }
+}

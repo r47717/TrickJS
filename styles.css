@@ -1,0 +1,50 @@
+.example {
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+.btn {
+  padding: 5px 10px;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.increment {
+  background: #123456;
+}
+
+.decrement {
+  background: #654321;
+}
+
+.latest {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #bbbbbb;
+  margin: 2px;
+}
+
+table,
+th,
+td {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #aaaaaa;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.table-row span {
+  display: inline-block;
+  width: 100px;
+}
+
+form button {
+  margin-top: 10px;
+}

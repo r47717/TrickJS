@@ -1,6 +1,6 @@
 const table = component((props) => {
-  const header = ["First Name", "Last Name", "Phone", "Actions"];
-  const body = [["Ivan", "Petrov", "+18471111111"]];
+  const header = props.header;
+  const body = props.body;
 
   let firstName = "";
   let lastName = "";
@@ -100,5 +100,3 @@ const table = component((props) => {
     },
   ];
 });
-
-table(document.getElementById("table"));

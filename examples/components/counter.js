@@ -40,6 +40,3 @@ const counter = component((props) => {
     { div: latestValues.map((value) => ({ "span.latest": `${value}` })) },
   ];
 });
-
-counter(document.getElementById("counter"), { title: "Counter 1" });
-counter(document.getElementById("counter2"), { title: "Counter 2" });

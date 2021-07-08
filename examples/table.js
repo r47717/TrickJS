@@ -1,4 +1,4 @@
-component(document.getElementById("table"), () => {
+const table = component((props) => {
   const header = ["First Name", "Last Name", "Phone", "Actions"];
   const body = [["Ivan", "Petrov", "+18471111111"]];
 
@@ -100,3 +100,5 @@ component(document.getElementById("table"), () => {
     },
   ];
 });
+
+table(document.getElementById("table"));

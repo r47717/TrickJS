@@ -1,4 +1,4 @@
-component(document.getElementById("counter"), () => {
+const counter = component((props) => {
   let counter = 0;
   const latestValues = [];
   const maxLatestValues = 5;
@@ -11,7 +11,7 @@ component(document.getElementById("counter"), () => {
   }
 
   return () => [
-    { h1: "Counter" },
+    { h1: (props && props.title) || "Counter" },
     { span: "Current value of counter: " },
     { span: { strong: `${counter}` } },
     {
@@ -40,3 +40,6 @@ component(document.getElementById("counter"), () => {
     { div: latestValues.map((value) => ({ "span.latest": `${value}` })) },
   ];
 });
+
+counter(document.getElementById("counter"), { title: "Counter 1" });
+counter(document.getElementById("counter2"), { title: "Counter 2" });

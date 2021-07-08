@@ -7,6 +7,6 @@ table(document.getElementById("table"), {
 });
 
 tabs(document.getElementById("tabs"), {
-  tabs: ["Tab1", "Tab2"],
-  tabsContent: ["Content of tab1", "Content of tab2"],
+  tabs: ["Tab1", "Tab2", "Tab3"],
+  tabsContent: ["Content of tab1", "Content of tab2", "Content of tab3"],
 });

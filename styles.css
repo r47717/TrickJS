@@ -73,3 +73,32 @@ form button {
 .tab-content.active {
   display: inline-block;
 }
+
+.radio-item {
+  display: flex;
+  align-items: center;
+}
+
+.radio-item span {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.radio-item span:hover {
+  background: #eeeeee;
+}
+
+.selected-lang {
+  display: inline-block;
+  transform: translate(200px, -150%);
+  padding: 10px 20px;
+  background: yellow;
+}
+
+.selected-lang span {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+}

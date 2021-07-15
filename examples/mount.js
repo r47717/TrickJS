@@ -10,3 +10,8 @@ tabs(document.getElementById("tabs"), {
   tabs: ["Tab1", "Tab2", "Tab3"],
   tabsContent: ["Content of tab1", "Content of tab2", "Content of tab3"],
 });
+
+radio(document.getElementById("radio"), {
+  name: "lang",
+  items: ["english", "spanish", "german", "chineese", "italian", "japan"],
+});

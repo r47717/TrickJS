@@ -15,3 +15,5 @@ radio(document.getElementById("radio"), {
   name: "lang",
   items: ["english", "spanish", "german", "chineese", "italian", "japan"],
 });
+
+clock(document.getElementById("clock"));
